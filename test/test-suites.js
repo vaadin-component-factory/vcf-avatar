@@ -1,3 +1,3 @@
-window.IncubatorAvatarSuites = [
+window.ComponentFactoryAvatarSuites = [
   'sample.html',
 ];

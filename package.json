@@ -1,25 +1,25 @@
 {
-  "name": "@vaadin/incubator-avatar",
+  "name": "@vaadin/vcf-avatar",
   "version": "1.0.0-beta2",
-  "description": "incubator-avatar",
-  "main": "incubator-avatar.html",
-  "repository": "vaadin/incubator-avatar",
+  "description": "vcf-avatar",
+  "main": "vcf-avatar.html",
+  "repository": "vaadin/vcf-avatar",
   "keywords": [
     "Vaadin",
-    "incubator-avatar",
+    "vcf-avatar",
     "web-components",
     "web-component",
     "polymer"
   ],
   "author": "Vaadin Ltd",
-  "license": "https://raw.githubusercontent.com/vaadin/incubator-avatar/master/LICENSE",
+  "license": "https://raw.githubusercontent.com/vaadin/vcf-avatar/master/LICENSE",
   "bugs": {
-    "url": "https://github.com/vaadin/incubator-avatar/issues"
+    "url": "https://github.com/vaadin/vcf-avatar/issues"
   },
   "homepage": "https://vaadin.com/components",
   "scripts": {
     "test": "wct",
-    "analyze": "polymer analyze incubator-avatar.html > analysis.json",
+    "analyze": "polymer analyze vcf-avatar.html > analysis.json",
     "preversion": "gulp version:update"
   },
   "devDependencies": {

@@ -6,7 +6,7 @@
       "description": "",
       "summary": "",
       "sourceRange": {
-        "file": "src/incubator-avatar.html",
+        "file": "src/vcf-avatar.html",
         "start": {
           "line": 44,
           "column": 6
@@ -18,9 +18,9 @@
       },
       "elements": [
         {
-          "description": "`<incubator-avatar>` is a template for incubator components.\n\n```\n<incubator-avatar>\n</incubator-avatar>\n```",
+          "description": "`<vcf-avatar>` is a template for component factory components.\n\n```\n<vcf-avatar>\n</vcf-avatar>\n```",
           "summary": "",
-          "path": "src/incubator-avatar.html",
+          "path": "src/vcf-avatar.html",
           "properties": [],
           "methods": [],
           "staticMethods": [],
@@ -43,7 +43,7 @@
           },
           "privacy": "public",
           "superclass": "HTMLElement",
-          "name": "Vaadin.IncubatorAvatar",
+          "name": "Vaadin.VcfAvatar",
           "attributes": [],
           "events": [],
           "styling": {
@@ -51,7 +51,7 @@
             "selectors": []
           },
           "slots": [],
-          "tagname": "incubator-avatar"
+          "tagname": "vcf-avatar"
         }
       ]
     }

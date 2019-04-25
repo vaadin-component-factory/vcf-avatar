@@ -13,7 +13,7 @@ See <a href="https://vaadin.com/license/cval-3">the website</a> for the complete
 <link rel="import" href="../../iron-icon/iron-icon.html">
 <link rel="import" href="../../incubator-tooltip/incubator-tooltip.html">
 
-<dom-module id="incubator-avatar">
+<dom-module id="vcf-avatar">
   <template>
     <style>
       :host {
@@ -31,7 +31,7 @@ See <a href="https://vaadin.com/license/cval-3">the website</a> for the complete
         flex: none;
       }
 
-      :host([no-tooltip]) incubator-tooltip {
+      :host([no-tooltip]) vcf-tooltip {
         display: none;
       }
 
@@ -86,19 +86,19 @@ See <a href="https://vaadin.com/license/cval-3">the website</a> for the complete
   <script>
     (function() {
       /**
-       * `<incubator-avatar>` is a template for incubator components.
+       * `<vcf-avatar>` is a template for component factory components.
        *
        * ```
-       * <incubator-avatar>
-       * </incubator-avatar>
+       * <vcf-avatar>
+       * </vcf-avatar>
        * ```
        *
        * @memberof Vaadin
        * @demo demo/index.html
        */
-      class IncubatorAvatar extends Vaadin.ElementMixin(Vaadin.ThemableMixin(Polymer.Element)) {
+      class VcfAvatar extends Vaadin.ElementMixin(Vaadin.ThemableMixin(Polymer.Element)) {
         static get is() {
-          return 'incubator-avatar';
+          return 'vcf-avatar';
         }
 
         static get properties() {
@@ -208,15 +208,15 @@ See <a href="https://vaadin.com/license/cval-3">the website</a> for the complete
 
       }
 
-      customElements.define(IncubatorAvatar.is, IncubatorAvatar);
+      customElements.define(VcfAvatar.is, VcfAvatar);
 
       /**
        * @namespace Vaadin
        */
-      window.Vaadin.IncubatorAvatar = IncubatorAvatar;
+      window.Vaadin.VcfAvatar = VcfAvatar;
 
       if (window.Vaadin.runIfDevelopmentMode) {
-        window.Vaadin.runIfDevelopmentMode('vaadin-license-checker', IncubatorAvatar);
+        window.Vaadin.runIfDevelopmentMode('vaadin-license-checker', VcfAvatar);
       }
     })();
   </script>

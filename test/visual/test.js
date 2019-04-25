@@ -1,4 +1,4 @@
-gemini.suite('incubator-avatar', function(rootSuite) {
+gemini.suite('vcf-avatar', function(rootSuite) {
   function wait(actions, find) {
     actions.wait(5000);
   }

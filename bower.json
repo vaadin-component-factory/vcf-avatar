@@ -1,19 +1,19 @@
 {
-  "name": "incubator-avatar",
+  "name": "vcf-avatar",
   "homepage": "https://vaadin.com/components",
   "authors": [
     "Vaadin Ltd"
   ],
-  "description": "incubator-avatar",
-  "main": "incubator-avatar.html",
+  "description": "vcf-avatar",
+  "main": "vcf-avatar.html",
   "keywords": [
     "Vaadin",
-    "incubator-avatar",
+    "vcf-avatar",
     "web-components",
     "web-component",
     "polymer"
   ],
-  "license": "https://raw.githubusercontent.com/vaadin/incubator-avatar/master/LICENSE",
+  "license": "https://raw.githubusercontent.com/vaadin/vcf-avatar/master/LICENSE",
   "ignore": [
     "**/.*",
     "node_modules",

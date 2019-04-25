@@ -1,0 +1,31 @@
+<dom-module id="vcf-avatar-basic-demos">
+  <template>
+    <style include="vaadin-component-demo-shared-styles">
+      :host {
+        display: block;
+      }
+    </style>
+
+    <h3>Basic usage</h3>
+    <vaadin-demo-snippet id="vcf-avatar-demo-sample">
+      <template preserve-content>
+        <vcf-avatar>
+        </vcf-avatar>
+        <vcf-avatar name="William Davids" tooltip-position="top" tooltip-align="left">
+        </vcf-avatar>
+        <vcf-avatar no-tooltip name="Bruce Williams" abbr="BJ">
+        </vcf-avatar>
+        <vcf-avatar image="https://unsplash.it/500/500?random">
+        </vcf-avatar>
+      </template>
+    </vaadin-demo-snippet>
+  </template>
+  <script>
+    class VcfAvatarBasicDemos extends DemoReadyEventEmitter(ElementDemo(Polymer.Element)) {
+      static get is() {
+        return 'vcf-avatar-basic-demos';
+      }
+    }
+    customElements.define(VcfAvatarBasicDemos.is, VcfAvatarBasicDemos);
+  </script>
+</dom-module>

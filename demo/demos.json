@@ -1,12 +1,12 @@
 {
-  "name": "Vaadin Incubator Element",
+  "name": "Vaadin Component Factory Element",
   "pages": [
   {
     "name": "Basics",
-    "url": "incubator-avatar-basic-demos",
-    "src": "incubator-avatar-basic-demos.html",
+    "url": "vcf-avatar-basic-demos",
+    "src": "vcf-avatar-basic-demos.html",
     "meta": {
-      "title": "incubator-avatar Basic Examples",
+      "title": "vcf-avatar Basic Examples",
       "description": "",
       "image": ""
      }
