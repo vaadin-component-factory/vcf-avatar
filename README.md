@@ -1,36 +1,36 @@
-[![Build Status](https://travis-ci.org/vaadin/incubator-avatar.svg?branch=master)](https://travis-ci.org/vaadin/incubator-avatar)
+[![Build Status](https://travis-ci.org/vaadin/vcf-avatar.svg?branch=master)](https://travis-ci.org/vaadin/vcf-avatar)
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/vaadin/web-components?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
-# &lt;incubator-avatar&gt;
+# &lt;vcf-avatar&gt;
 
-[Live Demo ↗](https://incubator.app.fi/incubator-avatar-demo/index.html)
+[Live Demo ↗](https://incubator.app.fi/vcf-avatar-demo/index.html)
 
-[&lt;incubator-avatar&gt;](https://vaadin.com/directory/component/vaadinincubator-avatar) is a Web Component displaying user's avatar, his name or a placeholder icon.
+[&lt;vcf-avatar&gt;](https://vaadin.com/directory/component/vcf-avatar) is a Web Component displaying user's avatar, his name or a placeholder icon.
 
 ```html
-  <incubator-avatar abbr="BJ" name="Ben Jones" image="https://unsplash.it/500/500?random">
-  </incubator-avatar>
+  <vcf-avatar abbr="BJ" name="Ben Jones" image="https://unsplash.it/500/500?random">
+  </vcf-avatar>
 ```
 
-[<img src="https://raw.githubusercontent.com/vaadin/incubator-avatar/master/screenshot.png" width="200" alt="Screenshot of incubator-avatar">](https://vaadin.com/directory/component/vaadinincubator-avatar)
+[<img src="https://raw.githubusercontent.com/vaadin/vcf-avatar/master/screenshot.png" width="200" alt="Screenshot of vcf-avatar">](https://vaadin.com/directory/component/vcf-avatar)
 
 
 ## Installation
 
-The Vaadin Incubator components are distributed as Bower packages.
+The Vaadin component factory components are distributed as Bower packages.
 
 ### Polymer 2 and HTML Imports compatible version
 
-Install `incubator-avatar`:
+Install `vcf-avatar`:
 
 ```sh
-bower i vaadin/incubator-avatar --save
+bower i vaadin/vcf-avatar --save
 ```
 
 Once installed, import it in your application:
 
 ```html
-<link rel="import" href="bower_components/incubator-avatar/incubator-avatar.html">
+<link rel="import" href="bower_components/vcf-avatar/vcf-avatar.html">
 ```
 
 ## Getting Started
@@ -39,38 +39,38 @@ Vaadin components use the Lumo theme by default.
 
 ## The file structure for Vaadin components
 
-- `src/incubator-avatar.html`
+- `src/vcf-avatar.html`
 
   Unstyled component.
 
-- `theme/lumo/incubator-avatar.html`
+- `theme/lumo/vcf-avatar.html`
 
   Component with Lumo theme.
 
-- `incubator-avatar.html`
+- `vcf-avatar.html`
 
-  Alias for theme/lumo/incubator-avatar.html
+  Alias for theme/lumo/vcf-avatar.html
 
 
 ## Running demos and tests in browser
 
-1. Fork the `incubator-avatar` repository and clone it locally.
+1. Fork the `vcf-avatar` repository and clone it locally.
 
 1. Make sure you have [npm](https://www.npmjs.com/) installed.
 
-1. When in the `incubator-avatar` directory, run `npm install` and then `bower install` to install dependencies.
+1. When in the `vcf-avatar` directory, run `npm install` and then `bower install` to install dependencies.
 
 1. Run `polymer serve --open`, browser will automatically open the component API documentation.
 
 1. You can also open demo or in-browser tests by adding **demo** or **test** to the URL, for example:
 
-  - http://127.0.0.1:8080/components/incubator-avatar/demo
-  - http://127.0.0.1:8080/components/incubator-avatar/test
+  - http://127.0.0.1:8080/components/vcf-avatar/demo
+  - http://127.0.0.1:8080/components/vcf-avatar/test
 
 
 ## Running tests from the command line
 
-1. When in the `incubator-avatar` directory, run `polymer test`
+1. When in the `vcf-avatar` directory, run `polymer test`
 
 
 ## Following the coding style
